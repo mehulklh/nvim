@@ -1,8 +1,9 @@
+-- leader key
+vim.g.mapleader = "<Space>"
 require("config.lazy")
 
 
 -- lsp setup
-
 vim.lsp.enable({
 	"clangd",
 	"gopls"
@@ -26,4 +27,7 @@ vim.opt.shiftwidth = 4
 vim.opt.number = true
 vim.opt.relativenumber = true
 
-vim.cmd[[colorscheme elflord]]
+
+
+
+vim.cmd[[colorscheme ef-theme]]
