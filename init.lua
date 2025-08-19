@@ -1,5 +1,4 @@
 -- leader key
-vim.g.mapleader = "<Space>"
 require("config.lazy")
 
 
@@ -30,4 +29,4 @@ vim.opt.relativenumber = true
 
 
 
-vim.cmd[[colorscheme ef-theme]]
+vim.cmd[[colorscheme modus]]

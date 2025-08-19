@@ -1,0 +1,13 @@
+--local Rule = require('nvim-autopairs.rule')
+--local npairs = require('nvim-autopairs')
+--local cond = require('nvim-autopairs.conds')
+--npairs.setup({
+--})
+--
+--
+--npairs.add_rule(
+--	Rule('[',']','c'):with_pair(cond.not_inside_quote())
+--)
+--
+--
+--npairs.add_rule(Rule("$$","$$","tex"))
