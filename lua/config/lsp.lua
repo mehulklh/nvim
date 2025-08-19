@@ -1,4 +1,6 @@
 vim.lsp.enable({
 	"clangd",
-	"gopls"
+	"gopls",
+	"lua_ls"
 })
+
