@@ -9,10 +9,11 @@ vim.diagnostic.config({
 })
 
 --colorscheme
-vim.cmd([[colorscheme tokyonight]])
+vim.cmd([[colorscheme rose-pine]])
 -- editor setup
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.wrap = true
+vim.opt.shell = "/usr/bin/fish"
