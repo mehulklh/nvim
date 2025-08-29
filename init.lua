@@ -1,4 +1,6 @@
 require("config.lazy")
 require("config.editor")
-require("config.lsp")
+--require("config.lsp")
 require("config.keymaps.telescope")
+require("config.keymaps.neotree")
+require("config.keymaps.terminal")

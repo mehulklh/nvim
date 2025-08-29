@@ -6,5 +6,8 @@ return {
 		styles = {
 			italic = false,
 		},
+		highlight_groups = {
+			Cursor = { fg = "#ffffff", bg = "#ffffff" },
+		},
 	},
 }

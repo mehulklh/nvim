@@ -17,3 +17,5 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.wrap = true
 vim.opt.shell = "/usr/bin/fish"
+vim.opt.smoothscroll = true
+vim.opt.swapfile = false
