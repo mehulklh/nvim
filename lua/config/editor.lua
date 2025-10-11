@@ -1,6 +1,6 @@
 vim.diagnostic.config({
-	virtual_text = true,
-	virtual_lines = true,
+	virtual_text = false,
+	virtual_lines = false,
 	underline = true,
 	float = {
 		border = "rounded",
@@ -9,7 +9,7 @@ vim.diagnostic.config({
 })
 
 --colorscheme
-vim.cmd([[colorscheme kanagawa-dragon]])
+vim.cmd([[colorscheme rose-pine]])
 -- editor setup
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
