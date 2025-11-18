@@ -9,7 +9,7 @@ vim.diagnostic.config({
 })
 
 --colorscheme
-vim.cmd([[colorscheme rose-pine]])
+vim.cmd([[colorscheme modus]])
 -- editor setup
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
