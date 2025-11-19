@@ -1,7 +1,8 @@
 return {
 	"neovim/nvim-lspconfig",
 	config = function()
-		-- lua_ls config to handle vim is an unknown global
+		vim.lsp.inlay_hint.enable(true)
+
 		vim.lsp.config("lua_ls", {
 			settings = {
 				Lua = {
@@ -10,7 +11,7 @@ return {
 					},
 					diagnostics = {
 						globals = {
-							"vim",
+							"vim", -- configuring lua_la to register vim as a known global
 							"require",
 						},
 					},
@@ -19,6 +20,30 @@ return {
 					},
 					telemetry = {
 						enable = false,
+					},
+				},
+			},
+		})
+
+		vim.lsp.config("rust_analyzer", {
+			settings = {
+				["rust_analyzer"] = {
+					inlayHints = {
+						bindingModeHints = {
+							enable = true,
+						},
+						closingBraceHints = {
+							enable = true,
+						},
+						implicitDrops = {
+							enable = true,
+						},
+						reborrowHints = {
+							enable = true,
+						},
+						typeHints = {
+							enable = true,
+						},
 					},
 				},
 			},

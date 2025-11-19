@@ -359,21 +359,21 @@ return -- lazy.nvim
 		},
 		-- LSP
 		{
-			"gd",
+			"grd",
 			function()
 				Snacks.picker.lsp_definitions()
 			end,
 			desc = "Goto Definition",
 		},
 		{
-			"gD",
+			"grD",
 			function()
 				Snacks.picker.lsp_declarations()
 			end,
 			desc = "Goto Declaration",
 		},
 		{
-			"gr",
+			"grr",
 			function()
 				Snacks.picker.lsp_references()
 			end,
@@ -381,14 +381,14 @@ return -- lazy.nvim
 			desc = "References",
 		},
 		{
-			"gI",
+			"gri",
 			function()
 				Snacks.picker.lsp_implementations()
 			end,
 			desc = "Goto Implementation",
 		},
 		{
-			"gy",
+			"grt",
 			function()
 				Snacks.picker.lsp_type_definitions()
 			end,
