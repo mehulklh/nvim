@@ -7,7 +7,7 @@ return {
 		highlight = {
 			enable = true,
 		},
-		ensure_installed = { "c", "cpp", "go" },
+		ensure_installed = { "c", "cpp", "go", "java", "rust", "json", "yaml" },
 		auto_install = true,
 	},
 }

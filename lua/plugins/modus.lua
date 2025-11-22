@@ -1,5 +1,6 @@
 return {
 	"miikanissi/modus-themes.nvim",
+	enabled = true,
 	priority = 1000,
 	opts = {
 		styles = {
